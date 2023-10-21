@@ -168,3 +168,4 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4' # new
 
 # Mail configurations
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'admin@megabookstore.com'

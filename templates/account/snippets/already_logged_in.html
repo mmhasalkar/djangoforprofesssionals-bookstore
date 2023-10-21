@@ -1,0 +1,7 @@
+{% load i18n %}
+{% load account %}
+
+{% user_display user as user_display %}
+<alert>
+    <strong>{% blocktrans%}Note{% endblocktrans%}:</strong> {% blocktrans%}You are already logged in as <i>{{ user_display }}</i>.{% endblocktrans%}
+</alert>
