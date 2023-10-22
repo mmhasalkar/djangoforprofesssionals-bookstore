@@ -7,6 +7,10 @@ services:
     environment:
       - SECRET_KEY=tfkc%89_0x01y43bsp3u&d!semwurr!7@&i2h(1yo@*r@sd!op
       - DEBUG=1
+      - EMAIL_HOST=smtp-relay.brevo.com
+      - EMAIL_HOST_USER=mukundamhasalkar@gmail.com
+      - EMAIL_HOST_PASSWORD=dV1LZKG8q3s6gQCz
+      - EMAIL_PORT=587
     volumes:
       - .:/code
     ports:
